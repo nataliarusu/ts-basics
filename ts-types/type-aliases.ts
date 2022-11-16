@@ -29,3 +29,28 @@ const combine = (
   const compineStringAges = combine('30', '36', 'as-number');
   
   console.log(compineAges, compineNames, compineStringAges);
+
+//Type aliases can be used to "create" own types. 
+type User = { name: string; age: number };
+const u1: User = { name: 'Anna', age: 30 }; // create new object with type User
+
+//This allows to avoid unnecessary repetition and manage types centrally.
+/*
+function greet(user: { name: string; age: number }) {
+  console.log('Hi, I am ' + user.name);
+}
+ 
+function isOlder(user: { name: string; age: number }, checkAge: number) {
+  return checkAge > user.age;
+}
+*/
+//To:
+
+function greet(user: User) {
+  console.log('Hi, I am ' + user.name);
+}
+ 
+function isOlder(user: User, checkAge: number) {
+  return checkAge > user.age;
+}
+greet(u1)
