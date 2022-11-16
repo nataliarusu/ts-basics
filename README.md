@@ -1,4 +1,7 @@
 ## ts-basics
+This repository contains the description of basic types in typescript: number, string, boolean, array, object, tuple, literal, union, enum, function, void, any, unknown, never
+
+---
 
 Learning basics
 1. Because I use VS code and my system is Windows, to be able to compile the code on the terminal instead of using
