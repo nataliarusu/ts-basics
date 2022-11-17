@@ -1,5 +1,11 @@
 ## ts-basics
-This repository contains the description of basic types in typescript: number, string, boolean, array, object, tuple, literal, union, enum, function, void, any, unknown, never
+
+This repository is for learning purposes only. The ts files weren't compiled.<br>
+This repository contains the description of basic types in typescript: number, string, boolean, array, object, tuple, literal, union, enum, function, void, any, unknown, never<br>
+
+
+---
+
 <details>
     <summary>How to init add watch mode</summary>
     The tsconfig.json file will be created and this means this project is managed by typescript.
