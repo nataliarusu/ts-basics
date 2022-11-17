@@ -2,7 +2,17 @@
 This repository contains the description of basic types in typescript: number, string, boolean, array, object, tuple, literal, union, enum, function, void, any, unknown, never
 
     tsc app.ts -w (OR tsc app.ts --watch)
-    Ctrl+C to escape watch mode
+    Ctrl+C to quit watch mode
+
+To be able to watch the entire project we should navigate to our project and run (only once)
+
+    tsc --init
+
+The tsconfig.json file will be created and this means this project is managed by typescript.  After init we can run in terminal tsc without file name
+
+    tsc
+
+what it tells typscript is go ahead and compile all ts files you can find in this project
 
 ---
 

@@ -15,11 +15,11 @@ function generateError(message: string, code: number): never {//will never retur
 }
 
 generateError('An error occurred!', 500);
-function add(n1: number, n2: number) {
+function addN(n1: number, n2: number) {
     return n1 + n2;
   }
   
-  function printResult(num: number): void {
+  function printResultN(num: number): void {
     console.log('Result: ' + num);
   }
   
