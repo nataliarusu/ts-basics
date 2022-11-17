@@ -4,6 +4,7 @@ This repository contains the description of basic types in typescript: number, s
     tsc app.ts -w (OR tsc app.ts --watch)
     Ctrl+C to quit watch mode
 
+
 To be able to watch the entire project we should navigate to our project and run (only once)
 
     tsc --init
@@ -13,6 +14,8 @@ The tsconfig.json file will be created and this means this project is managed by
     tsc
 
 what it tells typscript is go ahead and compile all ts files you can find in this project
+
+
 
 ---
 
