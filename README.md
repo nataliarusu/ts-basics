@@ -2,7 +2,7 @@
 This repository contains the description of basic types in typescript: number, string, boolean, array, object, tuple, literal, union, enum, function, void, any, unknown, never
 
     tsc app.ts -w (OR tsc app.ts --watch)
-    Ctrl+C to escape watch mode
+    Ctrl+C to quit watch mode
 
 ---
 
