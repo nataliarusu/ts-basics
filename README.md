@@ -8,7 +8,7 @@ This repository contains the description of basic types in typescript: number, s
 
 <details>
     <summary>How to init add watch mode</summary>
-    npm install
+    npm init
     <br>
     The tsconfig.json file will be created and this means this project is managed by typescript.
 
